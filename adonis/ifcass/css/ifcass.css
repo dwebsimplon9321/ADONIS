@@ -1,0 +1,100 @@
+/* navbar menu top */
+
+.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+    padding: 0px;
+}
+.bg-light {
+    background-color: #bf6000 !important;
+}
+img {
+    width: 400px;
+    margin-left: 20px;
+}
+.navbar-light {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+
+.banniere {
+    width: 100%;
+    height: 800px;
+    background-image: url(https://www.pagesjaunes.fr/media/agc/ac/e8/72/00/00/fd/99/d1/6b/0d/5daeace8720000fd99d16b0d/5daeace8720000fd99d16b0e.jpg);
+}
+
+/*contenu */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-transform: uppercase;
+    color: #18517e;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-bottom: solid 4px #18517e;
+    width: 316px;
+}
+
+
+/*c temporaire*/
+div.container {
+    height: 500px;
+}
+
+/* info importante */
+div.bg-black {
+    background-color: #18517e !important;
+    color: white;
+    padding-top: 30px;
+}
+
+div.bg-black h2 {
+    font-size: medium;
+}
+
+div.bg-black p {
+    
+}
+
+/* info partenaire formation sanitaire et sociale */
+div.bg-blue {
+    margin-bottom: 30px;
+    background-color: #e2f2fb;
+}
+
+div.bg-blue div div img {
+    width: 300px;
+    margin-top: 20px;
+}
+
+iframe {
+    margin-top: 20px;
+}
+
+/* les logos partenaires  (que j'ai mit en banniere mais devrons etre clicable car de notre époque ils sont comme ça (séparé)*/
+
+ul.logoP {
+    list-style: none;
+}
+ul.logoP img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+/* footer */
+img.facebook {
+    width: 100px;
+}
+
+img.terro {
+    width: 190px;
+}
+p.copy {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: gray;
+}

@@ -1,0 +1,81 @@
+div.logo {
+    background-image: url("../image/deco_violet.jpg");
+    background-repeat: repeat-x;
+}
+div.logo > img {
+    width: 30px;
+    /*margin-left: 60px; */
+    margin-left: 40%;
+    margin-top: 100px;
+}
+div.logo > h1 {
+    color: white;
+    font-size: 1.5em;
+}
+div.logo > p > span {
+    text-transform: lowercase;
+    
+}
+div.logo > p{
+    margin-top: -20px;
+    font-size: 1em;
+    padding-bottom: 80px;
+    color: white;
+}
+div.info {
+    background-image: url("/image/deco_rouge.jpg") ;
+    background-repeat: repeat-x;
+    color: white;
+    border-radius: 0 0 190px 0;
+}
+div.info img {
+    width: 25px;
+    /*margin-left: 60px; */
+    margin-left: 40%;
+}
+div.deco {
+    background-image: url("../image/deco_moutarde.jpg");
+    background-repeat: repeat-x;
+    height: 100px;
+}
+/* facture table */
+div.invoice {
+    margin-top: 100px;
+}
+table.table {
+    margin-bottom: 90px;
+}
+table.table td:nth-child(2) {
+    width: 290px;
+}
+table.table td:nth-child(3), table.table th:nth-child(3d) {
+    padding-left: 50px;
+}
+div.adresse {
+    padding-top: 50px;
+}
+div.adresse, div.url, div.phone {
+    margin-bottom: 50px;
+}
+div.phone {
+    padding-bottom: 200px;
+}
+img.sign {
+    width: 130px;
+}
+div.paiement, div.signature {
+    
+    margin-left: 50px;
+}
+div.paiement h3 {
+    font-size: 1em;
+}
+div.condition {
+    margin-top: 100px;
+    margin-left: 50px;
+    border-top: 2px solid black;
+}
+div.condition p {
+    padding-top: 20px;
+    width: 70%;
+}
